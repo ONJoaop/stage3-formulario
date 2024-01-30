@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+font-family: 'Staatliches', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    background-color: #BFD7E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body::before {
+    content: "";
+    height: 465px;
+    width: 100%;
+    background-color: #293241;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #ffffff;
+    height: 300px;
+}
+
+
+header h1 {   
+    font-family: 'Staatliches', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0px 0 20px 0;
+}
+
+
+
+form {
+    border-radius: 20px;
+    width: 750px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0 120px 0;
+    padding: 0;
+}
+
+
+.field-1{
+    width: 100%;
+    align-items: center;
+}
+.field-1 legend{
+    border-radius: 20px 20px 0 0;
+    height: 133px;
+    background-color: #F67669;
+    color: #ffffff;
+}
+
+
+.field-1 div{
+    display: flex;
+    width: 622px;
+}
+
+
+.field-1 div .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.field-1 div .input-wrapper input {
+    width: 300px;
+    height: 55px;
+}
+
+
+
+
+
+
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    width: 622px;
+}
+
+fieldset legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #253B51;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 5px;
+}
+
+
+fieldset .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+fieldset .input-wrapper label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+fieldset .input-wrapper label span{
+    font-size: 12px;
+    color: #C1BCCC;
+}
+
+fieldset .input-wrapper input{
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    height: 55px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+select {
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    height: 55px;
+    padding: 0 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+select option {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFC;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+textarea {
+    border-radius: 8px;
+    background-color: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    height: 166px;
+    width: 608px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+.input-checkbox {
+    justify-content: end;
+    align-items: center;
+    flex-direction: row !important;
+}
+
+
+
+.input-checkbox label {
+    margin: 0 0 0 10px !important;
+}
+
+#checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+.input-date {
+    width: 300px;
+}
+
+.checkin {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-checkin {
+    flex-direction: row !important;
+    width: 300px;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+
+.checkin > .input-wrapper  div{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    width: 140px;
+}
+
+button {
+    background-color: #F67669;
+    width: 622px;
+    height: 51px;
+    color: white;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 64px;
+}
